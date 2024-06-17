@@ -1,0 +1,54 @@
+/* AddProductForm.css */
+.add-product-container {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+.add-product-form .form-group {
+  margin-bottom: 15px;
+}
+
+.add-product-form .form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.add-product-form .form-group input[type="text"],
+.add-product-form .form-group input[type="number"] {
+  width: calc(100% - 10px);
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.add-product-form .form-group .price-input-container {
+  display: flex;
+  align-items: center;
+}
+
+.add-product-form .form-group .price-input-container .rupee-symbol {
+  margin-right: 5px;
+  font-size: 18px;
+}
+
+.add-product-form .form-group .price-input-container input {
+  flex: 1;
+}
+
+.add-product-form .add-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-product-form .add-button:hover {
+  background-color: #218838;
+}

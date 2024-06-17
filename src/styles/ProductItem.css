@@ -1,0 +1,87 @@
+.product-item {
+  display: flex;
+  align-items: flex-start;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.product-item-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.product-item-details {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+}
+
+.product-item-input {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.product-item-name {
+  font-size: 1.5em; /* Larger font size for product name */
+  font-weight: bold; /* Bold weight for emphasis */
+  margin-bottom: 5px; /* Reduce margin between name and other details */
+}
+
+.product-item-price {
+  margin-bottom: 5px; /* Space below price */
+}
+
+.product-item-rating {
+  display: flex;
+  justify-content: flex-start; /* Align stars to the left */
+  margin-bottom: 5px; /* Space below rating */
+}
+
+.product-item-rating .star {
+  font-size: 1.2em;
+  color: #f0c040;
+}
+
+.product-item-description {
+  font-size: 0.9em; /* Adjusted font size for description */
+  color: #666;
+  text-align: justify; /* Justify text for description */
+  margin-bottom: 10px;
+  width: 50%; /* Set width to 50% for the right side */
+  padding-left: 20px; /* Add padding for better separation from the product details */
+  box-sizing: border-box; /* Include padding in the width calculation */
+}
+
+.product-item-buttons {
+  display: flex;
+  flex-direction: column; /* Stack buttons vertically */
+  align-items: flex-end; /* Align buttons to the right */
+  margin-top: auto; /* Push buttons to the bottom */
+}
+
+.product-item-button {
+  padding: 5px 10px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-size: 1.2em;
+  display: flex; /* Ensure button content is flex */
+  align-items: center; /* Align items vertically */
+  margin-bottom: 10px; /* Add space between buttons */
+}
+
+.product-item-button.edit {
+  color: #4caf50;
+}
+
+.product-item-button.delete {
+  color: #f44336;
+}

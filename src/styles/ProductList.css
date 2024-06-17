@@ -1,0 +1,30 @@
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+/* ProductList.css */
+.sort-button-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.sort-button, .remove-sort-button {
+  margin-right: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.sort-button {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.remove-sort-button {
+  background-color: red;
+  color: white;
+}
